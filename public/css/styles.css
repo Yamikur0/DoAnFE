@@ -179,6 +179,9 @@ body{
 .slider .wrap-caption {
     width: 50%;
 }
+.img3 .text-black{
+    color: black;
+}
 .slider h1{
     color: #fff;
     font-size: 48px;
@@ -469,6 +472,10 @@ body{
     position: relative;
     margin-bottom: 20px;
 }
+.team .media{
+    display: inline-block;
+    text-align: center;
+}
 .some-icon{
     display: flex;
     justify-content: center;
@@ -637,6 +644,9 @@ body{
     margin-top: -70px;
     margin-bottom: -120px;
 }
+.discount1-heading{
+    margin-top: 50px;
+}
 .discount1-mid{
     font-size: 23px;
 }
@@ -644,6 +654,7 @@ body{
     color: #F7941D;
     background: #fff;
     border-radius: 30px;
+    margin-bottom: 50px;
 }
 .btn-white:hover{
     color: #F7941D;
@@ -657,6 +668,7 @@ body{
     font-size: 40px;
 }
 .client-img{
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -679,7 +691,18 @@ body{
 .cta .appointment{
     float: right;
 }
-
+@media (max-width: 768px){
+    .cta .body-text {
+        max-width: 100%;
+        text-align: center;
+    }
+    .cta .appointment{
+        max-width: 100%;
+        float: none;
+        margin: 0 auto;
+        display: table;
+    }
+}
 /* Footer */
 .footer{
     background: url(../images/statistic_bg.jpg);
